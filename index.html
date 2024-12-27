@@ -37,6 +37,12 @@
               {{desc}}
               <br>
               <a href="{{url}}">{{url}}</a>
+              <span v-if="archive_url">
+                <br>
+                The original url is offline,
+                but is available at an archive url:
+                <a href="{{archive_url}}">{{archive_url}}</a>
+              </span>
               <span v-if="twitter_url">
                 <br>
                 <a href="{{twitter_url}}"><i class="fab fa-twitter"></i></a>

@@ -6,8 +6,9 @@ var vm = new Vue({
         date: 'Sep 14, 2020',
         title: 'Bitfeed',
         desc: 'Bitfeed is like RSS, but for Bitcoin transactions.',
-        image_url: 'https://bitfeed.org/bitfeed.png',
+        image_url: 'https://afomi.github.io/bitfeed/assets/bitfeed.png',
         url: 'https://bitfeed.org/',
+        archive_url: 'https://afomi.github.io/bitfeed/',
         twitter_url: 'https://twitter.com/_unwriter/status/1305526684733628419'
       },
       {
